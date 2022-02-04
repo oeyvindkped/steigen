@@ -3,8 +3,8 @@ import Layout from "../components/Layout";
 
 const History = () => {
   return (
-    <Layout pageTitle="Steigen Lodge | Historie">
-      <h1>Historie</h1>
+    <Layout pageTitle="Steigen Lodge | Gjesteboken">
+      <h1>Gjesteboken</h1>
     </Layout>
   );
 };

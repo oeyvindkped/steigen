@@ -10,7 +10,7 @@ import Layout from "./components/Layout";
 
 const Home: NextPage = () => {
   return (
-    <Layout pageTitle="Steigen resor">
+    <Layout pageTitle="Velkommen til Steigen">
       <h1>Side for Steigen</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolor
