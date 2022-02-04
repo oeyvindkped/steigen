@@ -4,6 +4,7 @@
   --main-bg-color: #fdf4ed;
   --secondary-dark: #27161b;
   --primary-dark: #0d0709;
+  --primary-hover: #351c25;
 
   --rose: #995c68;
   --light-blue: #156165;
@@ -20,6 +21,11 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  columns: var(--primary-dark);
+  font-family: "Quicksand", sans-serif;
+}
+a:hover {
+  color: var(--primary-hover);
 }
 h1 {
   color: var(--secondary-dark);

@@ -1,12 +1,14 @@
 import React from "react";
 import Link from "next/link";
-import styles from "../../styles/Header.module.css";
+import Image from "next/image";
+import styles from "../../../styles/Header.module.css";
+import logo from "../../../public/logos/logo-pink.png";
 
-const Header = () => {
+export const WebHeader = () => {
   return (
-    <header className={styles.header}>
+    <header>
       <nav>
-        <ul className={styles.nav}>
+        <ul className={styles.webNav}>
           <li>
             <Link href="/about">
               <a>Om oss</a>
@@ -23,7 +25,14 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link href="/activites">
+            <Link href="/" passHref>
+              <a>
+                <Image src={logo} width={200} height={200} />
+              </a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/activities">
               <a>Aktiviter</a>
             </Link>
           </li>
@@ -32,10 +41,15 @@ const Header = () => {
               <a>Historie</a>
             </Link>
           </li>
+          <li>
+            <Link href="/guestbook">
+              <a>Hytteboka</a>
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
   );
 };
 
-export default Header;
+export default WebHeader;
