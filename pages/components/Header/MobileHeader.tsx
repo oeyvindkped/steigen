@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../../../styles/Header.module.css";
 
-import { Menu, Inbox } from "@mui/icons-material";
+import { Menu } from "@mui/icons-material";
 import logo from "../../../public/logos/logo-bw.png";
 import {
   IconButton,
@@ -13,7 +13,6 @@ import {
   Divider,
   Box,
   ListItem,
-  ListItemIcon,
 } from "@mui/material";
 
 const MenuItems = [
