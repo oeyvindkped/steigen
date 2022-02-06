@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import style from "../../styles/Carousel.module.css";
 import steigen1 from "../../public/images/steigen1.jpeg";
 import steigen2 from "../../public/images/steigen2.jpeg";
 import steigen3 from "../../public/images/steigen3.jpeg";
