@@ -72,7 +72,11 @@ export default function SwipeableTemporaryDrawer() {
 
   return (
     <header className={styles.mobileNav}>
-      <Image src={logo} width={100} height={100} />
+      <Link href="/" passHref>
+        <a>
+          <Image src={logo} width={100} height={100} />
+        </a>
+      </Link>
 
       <IconButton onClick={toggleDrawer(true)}>
         <Menu />
