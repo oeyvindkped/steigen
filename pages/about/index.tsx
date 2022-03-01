@@ -1,10 +1,13 @@
 import React from "react";
 import Layout from "../components/Layout";
+import { Container } from "@mui/material";
 
 const About = () => {
   return (
     <Layout pageTitle="Steigen Lodge | Om oss">
-      <h1>Om oss</h1>
+      <Container maxWidth="lg">
+        <h1>Kontakt oss</h1>
+      </Container>
     </Layout>
   );
 };

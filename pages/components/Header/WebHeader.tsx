@@ -27,7 +27,7 @@ export const WebHeader = () => {
           <li>
             <Link href="/" passHref>
               <a>
-                <Image src={logo} width={200} height={200} />
+                <Image src={logo} width={200} height={200} alt="Steigen logo" />
               </a>
             </Link>
           </li>
